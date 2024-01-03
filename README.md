@@ -1,0 +1,2 @@
+初步实现了Gatys和LapStyle，其中Gatys参考了Pytorch官网给出的代码， LapStyle实现存在些许问题，虽然最终结果还是可以的但是具体实现过程似乎存在问题，optimizer.step(closure)传递的过程有点毒。
+main.py还没完善框架，本来想把Gatys.py和LapStyle.py作为单独的model文件（仅用来实现训练），将main作为接口。
